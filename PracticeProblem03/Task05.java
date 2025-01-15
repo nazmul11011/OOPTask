@@ -7,9 +7,7 @@ public class Task05 {
         Scanner s=new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = s.nextInt();
-
         boolean isPrime = true;
-
         if (number <= 1) {
             isPrime = false;
         } else {
@@ -20,13 +18,11 @@ public class Task05 {
                 }
             }
         }
-
         if (isPrime) {
             System.out.println(number + " is a prime number.");
         } else {
             System.out.println(number + " is not a prime number.");
         }
-
         s.close();
     }
 }
